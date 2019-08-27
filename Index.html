@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Canvas testing...</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="view_unit">
+			<canvas id="my_canvas"></canvas>
+		</div>
+		<div class="control">
+			<select id="type_unit">
+				<option value="swordman">Мечник</option>
+				<option value="militia">Ополченец</option>
+				<option value="axeman">Пехотинец</option>
+				<option value="lanceman">Копейщик</option>
+				<option value="pikeman">Пикейщик</option>
+				<option value="archer">Лучник</option>
+			</select>
+			<div id="direction">
+				Направление:
+				<input name="dir" type="radio" value="S">
+				<input name="dir" type="radio" value="SE">
+				<input name="dir" type="radio" value="E">
+				<input name="dir" type="radio" value="NE">
+				<input name="dir" type="radio" value="N" checked>
+				<input name="dir" type="radio" value="NW">
+				<input name="dir" type="radio" value="W">
+				<input name="dir" type="radio" value="SW">
+			</div>
+			<div class="actions">
+				<label><input name="actions" type="radio" value="stopped" checked>Стоит</label>
+				<label><input name="actions" type="radio" value="walking">Идет</label>
+				<label><input name="actions" type="radio" value="running">Бежит</label>
+				<label><input name="actions" type="radio" value="attack">Атакует</label>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>

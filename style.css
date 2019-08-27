@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+}
+
+.view_unit {
+    background-color: rgb(8, 78, 8);
+    padding: 2px;
+    margin-right: 2px;
+}
+
+#my_canvas {
+    border: 1px solid;
+}
+
+.control {
+    border: 1px solid;
+    padding: 2px;
+}
+
+#direction {
+    height: 200px;
+    margin-top: 5px;
+}
+
+#direction input {
+    position: absolute;
+}
+
+.actions {
+    display: flex;
+}
