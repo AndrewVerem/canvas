@@ -1,5 +1,5 @@
 (function () {
-	var canvas = document.getElementById('my_canvas');
+	const canvas = document.getElementById('my_canvas');
 	canvas.width = 384;
 	canvas.height = 384;
 	var context = canvas.getContext('2d');
